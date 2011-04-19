@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CCDB8B135DDA2C00239E85 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 00CCDB8A135DDA2C00239E85 /* build.sh */; };
 		32798B971355804D00CD2667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32798B961355804D00CD2667 /* Foundation.framework */; };
 		32799385135587E900CD2667 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32799384135587E900CD2667 /* Info.plist */; };
 		875A824D126FFF1F00ECADC2 /* HWAppliance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 875A824A126FFF1F00ECADC2 /* HWAppliance.mm */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00CCDB8A135DDA2C00239E85 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -48,6 +50,7 @@
 		089C166AFE841209C02AAC07 /* atvTwo */ = {
 			isa = PBXGroup;
 			children = (
+				00CCDB8A135DDA2C00239E85 /* build.sh */,
 				875A8427126FFF6D00ECADC2 /* Makefile */,
 				875A86EB12704ACC00ECADC2 /* theos */,
 				875A8253126FFF5300ECADC2 /* BackRow */,
@@ -177,6 +180,7 @@
 			files = (
 				32799385135587E900CD2667 /* Info.plist in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				00CCDB8B135DDA2C00239E85 /* build.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
