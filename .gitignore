@@ -8,3 +8,5 @@ HelloWorld.xcodeproj/*.perspectivev3
 com.*
 _/
 .debmake
+HelloWorld.xcodeproj/project.xcworkspace/
+HelloWorld.xcodeproj/xcuserdata/*
