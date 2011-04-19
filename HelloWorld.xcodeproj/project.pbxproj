@@ -211,7 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "FW_DEVICE_IP=apple-tv.local\nln -f -s /Applications/AppleTV.app/Appliances/${PRODUCT_NAME}.frappliance _/Applications/Lowtide.app/Appliances/\ntheos/bin/fakeroot.sh chown -R root:wheel _/\n#theos/bin/fakeroot.sh chmod 6755 _/usr/bin/mHelper _/usr/libexec/maint/setuid\nexport PATH=/opt/local/bin:/opt/local/sbin:${AWS_IAM_HOME}/bin/:/usr/local/git:$PATH\n#make package\n\n#or could try make xpackage install";
+			shellScript = "FW_DEVICE_IP=apple-tv.local\nln -f -s /Applications/AppleTV.app/Appliances/${PRODUCT_NAME}.frappliance _/Applications/Lowtide.app/Appliances/\ntheos/bin/fakeroot.sh chown -R root:wheel _/\n#theos/bin/fakeroot.sh chmod 6755 _/usr/bin/mHelper _/usr/libexec/maint/setuid\nexport PATH=/opt/local/bin:/opt/local/sbin:${AWS_IAM_HOME}/bin/:/usr/local/git:$PATH\n./build.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
