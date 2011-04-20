@@ -25,9 +25,13 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFail
 {
     STFail(@"Unit tests are not implemented yet in LogicTests");
+}
+
+- (void) testPass {
+    STAssertTrue(TRUE, @"");
 }
 
 @end
