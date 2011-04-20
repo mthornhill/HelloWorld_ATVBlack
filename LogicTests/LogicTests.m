@@ -2,9 +2,6 @@
 //  LogicTests.m
 //  LogicTests
 //
-//  Created by Michael Thornhill on 19/04/2011.
-//  Copyright 2011 Maithu. All rights reserved.
-//
 
 #import "LogicTests.h"
 
