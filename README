@@ -3,15 +3,19 @@ I will get into the credits and history of this project later, for now I'm going
 Pre requisites: 
 
 Intel Mac With 10.6+
-Xcode 3.2.x
+Xcode 4.0.x
 macports (for .deb building through theos)
-iPhone 4.2+ SDK
+iPhone 4.3+ SDK
 
 Basic understanding of Obj-C won't hurt either!!
 
 Instructions:
 
-Install the pre-requisites, open in Xcode, build! 
+Install the pre-requisites, open in Xcode:
+1. Set up a password-less ssh connection to your ATV (http://oreilly.com/pub/h/66)
+2. Set build scheme to ios device for Hello World
+3. Build, this should compile and link your code,make a debian package, copy it to your ATV install it and restart your AppleTV application
+4. You can run unit tests by setting the build scheme to "LogicTests | iPhone 4.3 Simulator" and selecting Product, Test from menus.
 
 Additional Notes:
 
